@@ -2682,9 +2682,10 @@ body.search-no-results .page-header {
 /* Image Navigation */
 
 main article {
-    margin: 50px;
+    margin: 50px auto;
     text-align: center;
     color: #000;
+    max-width: 1000px;
 }
 
 main article h1{
