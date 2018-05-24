@@ -2714,10 +2714,12 @@ main article p{
 }
 
 .slideshow-container{
- max-width: 700px;
+ max-width: 600px;
  position:relative;
  margin:auto;
  margin-bottom: 50px;
+ -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+ box-shadow: 5px 5px 5px rgba(0,0,0,.5);
 }
 
 .mySlides{
@@ -2758,7 +2760,7 @@ main article p{
 }
 
 .numbertext{
- color:#f2f2f2;
+ color:#222;
  font-size:12px;
  padding:8px 12px;
  position:absolute;
@@ -2782,3 +2784,19 @@ main article p{
  to{opacity:1}
 }
 *{box-sizing:border-box}
+
+.formulario input, textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0;
+    transition: .4s;
+    border: 1px solid #9FB15E;
+}
+
+.formulario input[type="submit"] {
+    background: #5A653A;
+}
+
+.formulario input[type="submit"]:hover {
+    background: #9FB15E;
+}
