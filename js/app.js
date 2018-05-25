@@ -31,13 +31,13 @@ $(document).ready(function(){
   slidesToShow: 1,
 	});
 
-  $('.hero').slick({
-  autoplay: true,
-  autoplaySpeed: 3000,
-  dots: false,
-  infinite: true,
-  slidesToShow: 1,
-  accessibility: true,
-  });
+  // $('.hero').slick({
+  // autoplay: true,
+  // autoplaySpeed: 3000,
+  // dots: false,
+  // infinite: true,
+  // slidesToShow: 1,
+  // accessibility: true,
+  // });
 
 });
