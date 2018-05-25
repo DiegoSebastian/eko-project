@@ -1015,6 +1015,7 @@ input::-moz-focus-inner {
 
 	.main-navigation .primary-menu > li {
 		float: left;
+        width: 20%;
 	}
 
 	.main-navigation a {
@@ -1022,8 +1023,8 @@ input::-moz-focus-inner {
 		outline-offset: -8px;
 		padding: 0px 30px;
 		white-space: nowrap;
-		border-left: 1px solid #B0C367;
-        font-size: 16px;
+		border-right: 1px solid #B0C367;
+        font-size: 12px;
         font-weight: 700;
 
 	}
@@ -2676,7 +2677,7 @@ main article p{
 }
 
 .primary-menu li{
-    width: 20%;
+    
 }
 
 .text-quienes {
@@ -2815,6 +2816,47 @@ header {
 .image-blog {
     width: 80%;
 } 
+
+.menu-header-menu-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.primary-menu {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.hero {
+    width: 100vw;
+    margin: 0;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;}
+}
+
+main article.home-article {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
 @media screen and (max-width: 909px){
     
     .menu_row {
