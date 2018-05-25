@@ -31,4 +31,13 @@ $(document).ready(function(){
   slidesToShow: 1,
 	});
 
+  $('.hero').slick({
+  autoplay: true,
+  autoplaySpeed: 3000,
+  dots: true,
+  infinite: true,
+  slidesToShow: 1,
+  accessibility: false,
+  });
+
 });
