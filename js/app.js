@@ -34,10 +34,10 @@ $(document).ready(function(){
   $('.hero').slick({
   autoplay: true,
   autoplaySpeed: 3000,
-  dots: true,
+  dots: false,
   infinite: true,
   slidesToShow: 1,
-  accessibility: false,
+  accessibility: true,
   });
 
 });
