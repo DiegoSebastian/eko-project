@@ -2633,7 +2633,7 @@ body.search-no-results .page-header {
 /* Image Navigation */
 
 main article {
-    margin: 50px auto;
+    margin: 0 auto;
     text-align: center;
     color: #5A653A;
 }
@@ -2648,8 +2648,12 @@ main article h1{
 main article h2{
     padding: 15px 0;
     text-align: left;
-    font-size: 22pt;
+    font-size: 16pt;
     margin: 20px;
+}
+
+main article h3 {
+    font-size: 13pt;
 }
 
 main article p{
@@ -2775,7 +2779,7 @@ header {
 
 .text {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .text-mv {
@@ -2870,6 +2874,11 @@ header {
     height: 280px;
     width: 400px;
 }
+
+main {
+    background-image: url(../images/patron.png);
+
+}|
 
 .post {
     max-width: 1100px;
