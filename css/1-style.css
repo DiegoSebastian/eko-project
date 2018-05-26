@@ -2727,9 +2727,9 @@ header {
 *{box-sizing:border-box}
 
 .formulario input, textarea {
-    width: 100%;
-    padding: 20px;
-    margin: 15px 0;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
     transition: .4s;
     border: 1px solid #9FB15E;
 }
@@ -2876,10 +2876,10 @@ header {
 }
 
 main {
-    background-image: url(../images/patron.jpg);
+    background-image: url(../images/patron.png);
     -webkit-background-size: cover;
     background-size: cover;
-
+    background-position: 50%;
 }
 
 .post {
@@ -2914,6 +2914,11 @@ main {
     width: 450px;
     height: auto;
     margin: 40px;
+}
+
+.article-contact .direccion {
+    width: 500px;
+    margin-left: 50px;
 }
 
 .article-contact .direccion p{
