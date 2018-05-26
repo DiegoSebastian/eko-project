@@ -2876,9 +2876,11 @@ header {
 }
 
 main {
-    background-image: url(../images/patron.png);
+    background-image: url(../images/patron.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
 
-}|
+}
 
 .post {
     max-width: 1100px;
