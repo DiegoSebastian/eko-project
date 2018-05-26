@@ -2873,7 +2873,7 @@ header {
 .galeria-blog img{
     height: 280px;
     width: 400px;
-    border: 3px solid #5B642D;
+    border: 5px solid #fff;
 }
 
 main {
