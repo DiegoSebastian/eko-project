@@ -2657,6 +2657,7 @@ main article p{
 
 .logo_row {
     background: #5A653A;
+    z-index: 1000;
 }
 
 .logo img{
@@ -2690,6 +2691,19 @@ main article p{
     width: 30%;
     margin: 10px;
     height: auto;
+}
+
+header {
+    position: relative;
+}
+
+.menu_row {
+    position: absolute;
+    right: 50px;
+    z-index:1000;
+    min-width: 80%;
+    bottom: 0;
+    padding: 0;
 }
 
 
@@ -2799,6 +2813,10 @@ main article p{
     width: 80%;
 } 
 @media screen and (max-width: 909px){
+    
+    .menu_row {
+    position: static;
+}
 
     .article-contact {
         flex-direction: column;
