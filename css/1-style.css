@@ -1018,7 +1018,7 @@ input::-moz-focus-inner {
 	}
 
 	.main-navigation a {
-		line-height: 62px;
+		line-height: 30px;
 		outline-offset: -8px;
 		padding: 0px 30px;
 		white-space: nowrap;
@@ -2662,7 +2662,7 @@ main article p{
 
 .logo img{
     border-radius: 50%;
-    height: 200px;
+    height: 130px;
     width: auto;
     margin: 15px 0;
 }
