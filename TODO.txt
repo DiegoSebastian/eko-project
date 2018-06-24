@@ -1,0 +1,11 @@
+1- logo mas grande y encerrado en un circulo (cabiar img) x
+2 - menu mas alargado x
+3 - mas tiempo entre imagen e imagen, sin numeros contadores x
+4 - flechas en las fotos x
+5 - quitar titulos h1 x
+6 - textos de color verde oscuro x
+7 - quienes somos alienado a la izquierda e imagen (mujer exponiendi) al lado del texto, debajo mision y vision y las fotos que faltan. x
+8 - subitutlos mas pequeños (productos). x
+9 - slide de tres fotos por cada producto. x
+10 - contacto 50/50 form y direcciones (nueva direccion). x
+11 - eliminar titulo de blog. x
