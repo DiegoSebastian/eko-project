@@ -2656,15 +2656,15 @@ main article p{
 }
 
 .logo_row {
-    background: #5A653A;
+    background: #fff;
     z-index: 1000;
 }
 
 .logo img{
     border-radius: 50%;
-    height: 100px;
+    height: 200px;
     width: auto;
-    margin: 0;
+    margin: 15px 0;
 }
 
 .primary-menu {
@@ -2699,7 +2699,7 @@ header {
 
 .menu_row {
     position: absolute;
-    right: 50px;
+    right: 0;
     z-index:1000;
     min-width: 80%;
     bottom: 0;
