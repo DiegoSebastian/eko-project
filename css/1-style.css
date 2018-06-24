@@ -2752,6 +2752,7 @@ main article p{
 }
 
 .galeria-home div img{
+    max-height: 80vh;
     width: 100%;
 }
 
