@@ -1023,6 +1023,9 @@ input::-moz-focus-inner {
 		padding: 0px 30px;
 		white-space: nowrap;
 		border-left: 1px solid #B0C367;
+        font-size: 16px;
+        font-weight: 700;
+
 	}
 
 	.main-navigation li:hover > a,
@@ -2662,7 +2665,7 @@ main article p{
 
 .logo img{
     border-radius: 50%;
-    height: 130px;
+    height: 160px;
     width: auto;
     margin: 15px 0;
 }
